@@ -1,0 +1,404 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+  /*
+    1. Use a more-intuitive box-sizing model.
+  */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  
+  /*
+      3. Allow percentage-based heights in the application
+    */
+  html,
+  body {
+    height: 100%;
+  }
+  
+  /*
+    7. Remove built-in form typography styles
+  */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: white;
+  }
+  
+  /*
+    8. Avoid text overflows
+  */
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+
+.first-section{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 100vh;
+    /* opacity: 0.8; */
+    border-bottom: 5px solid gray;
+}
+
+.sign-in{
+    display: flex;
+}
+
+.sign-in .signin-button{
+    flex-basis: 100%;
+    padding: 30px 110px 0px 0px;
+    text-align: right;
+}
+
+.sign-in .logo{
+    flex-basis: 100%;
+    color:  rgb(243, 0, 12);
+    padding: 10px 0px 0px 50px;
+}
+
+.sign-in .signin-button a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid  rgb(243, 0, 12);
+    background-color:  rgb(243, 0, 12);
+    padding: 8px 16px;
+    border-radius: 5px;
+    /* align-self: flex-end; */
+    margin-top: 600px;
+}
+
+.start-subcription{
+    color: white;
+    margin: 100px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.start-subcription h1{
+    font-size: 50px;
+}
+
+.start-subcription .p1{
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.start-subcription .p2{
+    margin: 25px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.start-subcription form input[type="email"]{
+  width: 460px;
+  padding: 14px 0px 14px 10px;
+}
+
+.start-subcription form span button{
+  width: 210px;
+  text-align: center;
+  padding: 14px 5px 14px 5px;
+  background-color: rgb(243, 0, 12);
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 1.5px;
+}
+
+.start-subcription form span button:hover{
+  background-color: red;
+}
+
+.enjoy-your-tv{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid gray;
+  padding: 30px 0px 70px 30px;
+}
+
+.enjoy-your-tv .write-up{
+  flex-basis: 100%;
+  padding: 90px 0px 0px 120px;
+}
+
+.enjoy-your-tv .write-up h1{
+  font-size: 50px;
+}
+
+.enjoy-your-tv .write-up p{
+  font-size: 25px;
+}
+
+.enjoy-your-tv .display{
+  flex-basis: 100%;
+}
+
+.display{
+  position: relative;
+  padding-left: 40px;
+}
+
+.display img{
+  width: 450px;
+  height: 340px;
+}
+
+.video-box1{
+  position: absolute;
+  top: 20.8%;
+  left: 16%;
+  width: 450px;
+  height: 300px;
+  /* transform: translate(-50%, -50%); */
+  /* z-index: -1; */
+}
+
+.video-box1 video{
+  width: 73%;
+  z-index: -1;
+}
+
+.download-ad{
+  background-color: black;
+  color: white;
+  border-bottom: 5px solid gray;
+}
+
+#writeup-download-ad{
+  flex-basis: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#writeup-download-ad div h1{
+  font-size: 45px;
+}
+
+#writeup-download-ad div p{
+  font-size: 27px;
+}
+
+.blue-font{
+  color: blue;
+}
+
+.flex-display{
+  display: flex;
+}
+
+.stranger-thing{
+  position: relative ;
+  flex-basis: 100%;
+  padding: 20px;
+  margin-left: 70px;
+}
+
+.stranger-thing-ad{
+  border: 5px solid gray;
+  max-height: 90px;
+  max-width: 350px;
+  border-radius: 15px;
+  position: absolute;
+  left: 12%;
+  top: 63%;
+  padding: 15px;
+  background-color: black;
+  width: 400px;
+}
+
+.stranger-thing .girl-img img{
+  height: 350px;
+}
+
+.stranger-thing-ad #stranger-thing-image img{
+  height: 60px;
+  margin-right: 15px;
+}
+
+.stranger-thing-ad #stranger-writeup {
+  padding-top: 10px;
+  margin-right: 50px;
+}
+
+.stranger-thing-ad #download-gif img{
+  height: 40px;
+  margin: 5px 0px 0px 60px;
+}
+
+.stranger-thing-ad #stranger-writeup .text{
+  font-size: 12px;
+}
+
+/* forth section */
+.forth-section{
+  background-color: black;
+  border-bottom: 5px solid gray;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 70px 0px 70px 150px;
+}
+.forth-section div h1{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.forth-section div p{
+  font-size: 27px;
+}
+
+/* fifth section */
+.kids-profile-section{
+  background-color: black;
+  border-bottom: 5px solid gray;
+  padding: 80px 0px;
+}
+.flex-display-align-Vcenter{
+  display: flex;
+  align-items: center;
+}
+.flex-display-align-Vcenter div{
+  color: white;
+}
+.kids-profile-section div img{
+  width: 430px;
+  height: 320px;
+  margin-left: 100px;
+}
+.kids-image{
+  flex-basis: 75%;
+}
+.kids-profile-writeup{
+  flex-basis: 100%;
+}
+.kids-profile-writeup div h1{
+  font-size: 60px;
+}
+.kids-profile-writeup div p{
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/* six section */
+.faq{
+  color: white;
+  background-color: black;
+  padding: 70px 0px 30px 0px;
+  border-bottom: 5px solid gray;
+}
+.faq-heading{
+  text-align: center;
+  font-size: larger;
+}
+.faq-list{
+  margin: 30px auto 20px auto;
+  width: 50%;
+  color: white;
+}
+.faq-list-item{
+  list-style: none;
+  margin-bottom: 8px;
+}
+.faq-questions{
+  border: 0px;
+  background-color: #303030;
+  font-weight: 400;
+  margin-bottom: 1px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  position: relative;
+  font-size: 21px;
+  width: 100%;
+  text-align: left;
+  color: white;
+}
+.faq-answers{
+  background-color: #303030;
+  display: block;
+  padding: 20px;
+  text-align: left;
+}
+.faq .faq-heading .faq-list .faq-list-item .faq-answers span{
+  font-size: 21px;
+}
+.ready-form{
+  color: white;
+  margin: 80px auto 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+.faq .ready-form form input[type="email"]{
+  width: 460px;
+  padding: 14px 0px 14px 10px;
+}
+.faq .ready-form p{
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.faq .ready-form form span button{
+  width: 210px;
+  text-align: center;
+  padding: 14px 5px 14px 5px;
+  background-color: rgb(243, 0, 12);
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 1.5px;
+}
+.faq .ready-form form span button:hover{
+  background-color: red;
+}
+
+/* seventh section */
+.links{
+  padding: 70px 50px 30px 90px;
+  background-color: black;
+  color: gray;
+}
+.links p{
+  margin-left: 97px;
+  margin-bottom: 20px;
+}
+.links ul{
+  display: flex;
+  margin-bottom: 20px;
+}
+.links ul div{
+  margin: 0px 60px;
+}
+.links ul div li {
+  list-style-type: none;
+  color: gray;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.links ul div li a{
+  text-decoration: none;
+  color: gray;
+}
+.links ul div li a:hover{
+  text-decoration: underline;
+}
